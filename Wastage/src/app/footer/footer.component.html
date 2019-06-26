@@ -1,0 +1,167 @@
+<div class="bg-dark">
+  <div class="container w3-padding">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <h1 class="w3-text-white" style="margin-left: 100px;margin-top: 50px;"><img src="assets/img/logo.png" width="200px" height="100px"></h1>
+      </div>
+      <div class="col-lg-8 col-md-8">
+        <br><div class="row w3-text-white">
+          <div class="col-lg-4 col-md-4">
+            <label><b>Quick Links</b></label><br>
+            <label>Link1</label><br>
+            <label>Link2</label><br>
+            <label>Link3</label><br>
+            <label>Link4</label><br>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <label><b>Quick Links</b></label><br>
+            <label>Link1</label><br>
+            <label>Link2</label><br>
+            <label>Link3</label><br>
+            <label>Link4</label><br>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <label><b>Quick Links</b></label><br>
+            <label>Link1</label><br>
+            <label>Link2</label><br>
+            <label>Link3</label><br>
+            <label>Link4</label><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+  
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">LOGIN</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <!-- Navigation Buttons -->
+            <ul class="nav nav-pills" role="tablist">
+              <li class="nav-item w3-center" style="width: 33%;">
+                <a class="nav-link active" data-toggle="pill" href="#home">Restaurant</a>
+              </li>
+              <li class="nav-item w3-center" style="width: 33%;">
+                <a class="nav-link" data-toggle="pill" href="#menu1">Charity</a>
+              </li>
+              <li class="nav-item w3-center" style="width: 33%;">
+                <a class="nav-link" data-toggle="pill" href="#menu2">Delivery Boy</a>
+              </li>
+            </ul>
+  
+            <!-- navigation Body -->
+            <div class="tab-content">
+              <div id="home" class="container tab-pane active"><br>
+                <form>
+                  <label>Username</label><br>
+                  <input type="text" name="username" class="form-control"><br>
+                  <label>Password</label><br>
+                  <input type="text" name="pwd" class="form-control"><br>
+                  <a style="cursor: pointer;" data-dismiss="modal" routerLink="/SignUp" class="w3-right text-primary"><label>New User? Click here</label></a><br><br>
+                  <button class="btn bg-dark w3-wide w3-text-white w3-center">LOGIN</button>
+                </form>
+              </div>
+              <div id="menu1" class="container tab-pane fade"><br>
+                <form>
+                  <label>Username</label><br>
+                  <input type="text" name="username" class="form-control"><br>
+                  <label>Password</label><br>
+                  <input type="text" name="pwd" class="form-control"><br>
+                  <label class="w3-right text-primary"><a routerLink="/SignUp" data-dismiss="modal" >New User? Click here</a></label><br><br>
+                  <button class="btn bg-dark w3-wide w3-text-white w3-center ">LOGIN</button>
+                </form>
+              </div>
+              <div id="menu2" class="container tab-pane fade"><br>
+                <form>
+                  <label>Username</label><br>
+                  <input type="text" name="username" class="form-control"><br>
+                  <label>Password</label><br>
+                  <input type="text" name="pwd" class="form-control"><br>
+                  <label class="w3-right text-primary"><a routerLink="/SignUp" data-dismiss="modal" >New User? Click here</a></label><br><br>
+                  <button class="btn bg-dark w3-wide w3-text-white w3-center" >LOGIN</button>
+                </form>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Modal footer -->
+          <div class="bg-dark" style="padding: 18px;">
+            <label class="w3-text-white">&copy; Copyright Reserved Wastage Reduction</label>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Want Food modal -->
+  <div class="modal fade" id="wantFoodModal">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+  
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Want Food?</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <label>Name</label>
+              <input type="text" name="" class="form-control"><br>
+              <label>Address</label><br>
+              <textarea rows="3" cols="50" class="form-control"></textarea><br>
+              <label>Mobile</label>
+              <input type="number" name="" class="form-control"><br>
+              <label>Requirement</label>
+              <div class="form-inline">
+                <input type="number" placeholder="Veg" style="width: 45%;" name="" class="form-control">
+                <input type="number" placeholder="Non-Veg" style="width: 45%;margin-left: 20px;" name="" class="form-control">
+              </div><br><br>
+              <button class="btn btn-dark w3-wide" style="width: 30%;">SUBMIT</button>
+            </form>
+          </div>
+  
+          <!-- Modal footer -->
+          <div class="bg-dark" style="padding: 18px;">
+            <label class="w3-text-white">&copy; Copyright Reserved Wastage Reduction</label>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  
+    <!-- Donate Food -->
+    <div class="modal fade" id="donateFoodModal">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+  
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Donate Food?</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+  
+          </div>
+  
+          <!-- Modal footer -->
+          <div class="bg-dark" style="padding: 18px;">
+            <label class="w3-text-white">&copy; Copyright Reserved Wastage Reduction</label>
+          </div>
+          
+        </div>
+      </div>
+    </div>
