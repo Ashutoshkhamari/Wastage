@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import * as CanvasJS from '../../assets/js/canvasjs.min';
 @Component({
-  selector: 'app-restaurant-dashboard',
-  templateUrl: './restaurant-dashboard.component.html',
-  styleUrls: ['./restaurant-dashboard.component.css']
+  selector: 'app-charity-dash-board',
+  templateUrl: './charity-dash-board.component.html',
+  styleUrls: ['./charity-dash-board.component.css']
 })
-export class RestaurantDashboardComponent implements OnInit {
+export class CharityDashBoardComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
 
     //++++++++++++++++++++++ Pi Chart For Detailed Log Reports
-    
+
     let chart = new CanvasJS.Chart("chartContainer", {
       theme: "light2",
       animationEnabled: true,
       exportEnabled: true,
-      title:{
+      title: {
         text: "Veg Vs Non-Ver Served"
       },
       data: [{
@@ -31,7 +31,7 @@ export class RestaurantDashboardComponent implements OnInit {
         ]
       }]
     });
-      
+
     chart.render();
     //++++++++++++++++++++++ End Of Pi Chart For Detailed Log Reports
 
@@ -64,9 +64,10 @@ export class RestaurantDashboardComponent implements OnInit {
         ]
       }]
     });
-      
+
     chart1.render();
     //++++++++++++++++++++++ End Of Bar Graph Log Report Details
+
   }
 
 }

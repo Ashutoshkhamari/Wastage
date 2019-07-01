@@ -10,6 +10,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeGraphComponent } from './home-graph/home-graph.component';
 import { RestaurantDashboardComponent } from './restaurant-dashboard/restaurant-dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { FoodStatusComponent } from './food-status/food-status.component';
+import { CharityDashBoardComponent } from './charity-dash-board/charity-dash-board.component';
+import { DeliveryBoyDashBoardComponent } from './delivery-boy-dash-board/delivery-boy-dash-board.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { LoginComponent } from './login/login.component';
     SignUpComponent,
     HomeGraphComponent,
     RestaurantDashboardComponent,
-    LoginComponent
+    LoginComponent,
+    FoodStatusComponent,
+    CharityDashBoardComponent,
+    DeliveryBoyDashBoardComponent
   ],
   imports: [
     BrowserModule,
